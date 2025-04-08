@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mama Magic</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="background-image: url(/main/Untitled\ design.png); background-size: cover;">
+
+
+        <nav class="bg-lime-900 shadow-lg ">
+            <div class="max-w-7xl mx-auto px-4">
+                <div class="flex justify-between items-center h-20">
+                    <!-- Logo -->
+                    <div class="flex-shrink-0 text-xl font-bold text-indigo-600">
+                        <img src="1-removebg-preview.png" alt="" class="logo">
+                        
+                    </div>
+                    
+                    <!-- Desktop Menu -->
+                    <div class="hidden md:flex space-x-6 " id="navbar">
+                        <a href="/main/index.html" class="text-orange-700 text-2xl ">Home</a>
+                        <a href="/main/about.html" class="text-orange-700 text-2xl">About us</a>
+                        <a href="/landing page/menu.html" class="text-orange-700 text-2xl">Menu</a>
+                        <a href="/main/contact.html" class="text-orange-700 text-2xl">Contact</a>
+                        <button type="button" id="order" class="text-2xl  border-2 border-solid  ">ORDER NOW!</button>
+                    </div>
+                    
+                    <!-- Mobile Menu Button -->
+                    <div class="md:hidden flex items-center">
+                        <button id="mobile-menu-button" class="text-orange-700 focus:outline-none">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden px-4 pb-4">
+            <a href="/main/index.html" class="block py-2 text-orange-700  text-xl">Home</a>
+            <a href="/main/about.html" class="block py-2 text-orange-700 text-xl">About us</a>
+            <a href="/landing page/menu.html" class="block py-2 text-orange-700 text-xl">Menu</a>
+            <a href="/main/contact.html" class="block py-2 text-orange-700 text-xl">Contact</a>
+        </div>
+    </nav>
+    
+
+<main class="grid min-h-full place-items-center mt-[100px] px-6 py-24 sm:py-32 lg:px-8 bg-gray-100 ">
+    <div class="text-center">
+        <p id="text" class="mt-4 tracking-tight text-balance  sm:text-5xl text-6xl font-bold text-stone-950  uppercase"> Step into  <span
+                class="text-orange-400 text-6xl ">
+                Mama's Magic </span> Where Every Bite is a <br> <span class="text-orange-400 text-6xl "> Sprinkle of
+                Love! </span></p> <br>
+        <p class="text-stone-950 text-4xl  pl-4"> Delight in homemade flavors,
+            <br> crafted to warm your heart and soul.
+        
+        </p>
+        <br>
+        <button id="order-food" type="button" style="border: 4px solid #f87624;"
+            class="uppercase w-[300px] p-2 text-xl ml-2 boder-orange-900 rounded-xl  shadow-xl shadow-gray-500 ">
+            <a href="/landing page/menu.html">Hungry!</a>  </button>
+        
+
+    </div>
+</main>
+      
+
+    <br>
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img class="object-cover w-full h-96" src="menu2.jpg" alt="image" />
+            </div>
+            <div class="swiper-slide">
+                <img class="object-cover w-full h-96" src="menu1.jpg"
+                    alt="image" />
+            </div>
+            <div class="swiper-slide">
+                <img class="object-cover w-full h-96" src="ab1.jpg"
+                    alt="image" />
+            </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+
+    </main><br>
+    <br>
+    <br>
+    <div class=" ">
+        <div class="p-4">
+
+            <h1 class="text-6xl text-center text-orange-700  ">Eating should be an experience</h1><br><br>
+            <div class="flex justify-evenly w-[85%] ml-[100px] flex-wrap mt-6 ">
+                <div
+                    class="boder-gray-900 rounded-[50%] border-8 border-solid w-[300px] h-[300px] center p-4 content-center hover:-rotate-45 hover:bg-orange-700 relative">
+                    <img src="/main/icons8-serving-dish-60.png" alt="" class="w-[120px] absolute top-14 left-24 h">
+                    <p></p>
+                </div>
+                <div
+                    class="boder-gray-900 rounded-[50%] border-8 border-solid w-[300px] h-[300px] center p-4 content-center  hover:-rotate-45 hover:bg-orange-700 relative">
+                    <img src="/main/icons8-chef-hat-50.png" alt="" class="w-[100px] absolute top-14 left-24">
+                </div>
+                <div
+                    class="boder-gray-900 rounded-[50%] border-8 border-solid w-[300px] h-[300px] center p-4 content-center  hover:-rotate-45 hover:bg-orange-700  relative">
+                    <img src="/main/icons8-cooking-pot-50.png" alt="" class="w-[100px] absolute top-14 left-24">
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br>
+
+    <div class="bg-gray-100">
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div class="mx-auto max-w-2xl py-16 sm:py-24 lg:max-w-none lg:py-32">
+                <h2 class="text-4xl font-bold text-orange-900 center">Special Services </h2>
+
+                <div class="mt-6 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-6 lg:space-y-0">
+                    <div class="group relative">
+                        <h2 class="text-center text-2xl text-orange-900">Royal Delight</h2>
+                        <img src="2a.jpg"
+                            alt="Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug."
+                            class="w-full rounded-lg bg-white object-cover group-hover:opacity-75 max-sm:h-80 sm:aspect-2/1 lg:aspect-square">
+                        <h3 class="mt-6 text-md text-gray-900">
+                            Here you have accsee to the desi sugar <br> confectionary (mithai) served with inviting
+                            toppings prepared by our own experts
+                        </h3>
+
+                    </div>
+                    <div class="group relative">
+                        <h2 class="text-center text-2xl text-orange-900">English Dessert</h2>
+                        <img src="1.jpg"
+                            alt="Wood table with porcelain mug, leather journal, brass pen, leather key ring, and a houseplant."
+                            class="w-full rounded-lg bg-white object-cover group-hover:opacity-75 max-sm:h-80 sm:aspect-2/1 lg:aspect-square">
+                        <h3 class="mt-6 text-md text-gray-900">
+                            We serve heavenly, mouthwatering desserts of your choice that you will definitely find
+                            exquisite!
+                        </h3>
+
+                    </div>
+                    <div class="group relative">
+                        <h2 class="text-center text-2xl text-orange-900">Remote site catering </h2>
+                        <img src="3.jpg" alt="Collection of four insulated travel bottles on wooden shelf."
+                            class="w-full rounded-lg bg-white object-cover group-hover:opacity-75 max-sm:h-80 sm:aspect-2/1 lg:aspect-square">
+                        <h3 class="mt-6 text-md text-gray-900">
+                            Offers quality food supply, storage and catering services in remote areas. We offer a great
+                            experience in every event
+                        </h3>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="relative isolate overflow-hidden  px-6 py-24 sm:py-32 lg:px-8">
+        <div
+            class="absolute inset-0 -z-10 bg-[radial-gradient(45rem_50rem_at_top,var(--color-indigo-100),white)] opacity-20">
+        </div>
+        <div
+            class="absolute inset-y-0 right-1/2 -z-10 mr-16 w-[200%] origin-bottom-left skew-x-[-30deg] bg-white ring-1 shadow-xl shadow-indigo-600/10 ring-indigo-50 sm:mr-28 lg:mr-0 xl:mr-16 xl:origin-center">
+        </div>
+        <div class="mx-auto max-w-2xl lg:max-w-4xl">
+            <h2 class="mx-auto h-12 text-4xl text-orange-700 text-center">About Mama’s Magic</h2>
+
+            <figure class="mt-10">
+                <blockquote class="text-center text-xl/8 font-semibold text-gray-900 sm:text-2xl/9">
+                    <p>Mama’s Magic was born from the comforting aroma of home-cooked meals and the timeless recipes
+                        passed down through
+                        generations. Inspired by the warmth of a mother's kitchen, we set out to create a place where
+                        food isn’t just eaten—it’s
+                        felt.
+
+                        It all began with Mama, whose hands worked wonders in the kitchen—mixing love, tradition, and
+                        fresh ingredients into
+                        every meal. Her food wasn’t just delicious—it had soul. Whether it was a simple curry bubbling
+                        on the stove or a
+                        lovingly kneaded roti, there was always something magical about her cooking. That magic became
+                        our mission.
+
+                        At Mama’s Magic, we bring those flavors to life in every dish we serve. Our food is crafted with
+                        care, just like Mama
+                        used to make—slow-cooked, rich in taste, and full of heart. Whether you're craving traditional
+                        comfort food or a modern
+                        twist on a classic, we’re here to serve warmth on a plate.
+
+                        We believe great food can spark memories, heal hearts, and bring people closer. That’s the true
+                        magic we strive to
+                        share, one bite at a time.</p>
+                </blockquote>
+                <figcaption class="mt-10">
+
+                    <div class="mt-4 flex items-center justify-center space-x-3 text-base">
+                        <button id="order-food" type="button" style="border: 4px solid #f87624"
+                            class="uppercase w-[300px] p-2 text-xl ml-2 boder-orange-900 rounded-xl  shadow-xl shadow-gray-500 ">
+                            <a href="about.html">Read More!</a> </button>
+                    </div>
+                </figcaption>
+            </figure>
+        </div>
+    </section>
+    <footer>
+
+        <div class="bg-lime-900 py-24 sm:py-32">
+            <div class="mx-auto max-w-7xl px-6 lg:px-8">
+                <h2 class="text-center text-2xl/8 font-semibold text-orange-700">From our kitchen to your heart – with love,
+                    Mama's Magic.</h2>
+                    <div
+                    class="mx-auto ml[400px] mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
+                    <div>
+                        
+                        <img class="col-span-2 max-h-12 w-full object-contain lg:col-span-1 hover:scale-125"
+                        src="whatsapp.png" alt="Transistor" width="158" height="48">
+                    </div>
+                    <div>
+                        
+                        <img class="col-span-2 max-h-12 w-full object-contain lg:col-span-1 hover:scale-125 "
+                        src="mail_1324171.png" alt="Reform" width="158" height="48">
+                        </h2>
+                    </div>
+                    <div>
+                        
+                        <img class="col-span-2 max-h-12 w-full object-contain lg:col-span-1 hover:scale-125"
+                        src="location_535239.png" alt="Tuple" width="158" height="48">
+                    </div>
+                    <div>
+                        
+                        <img class="col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1 hover:scale-125"
+                        src="time_9905776.png" alt="SavvyCal" width="158" height="48">
+                    </div>
+                    <div>
+                    
+                        <img class="col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1 hover:scale-125"
+                            src="icons8-in-transit-50.png" alt="SavvyCal" width="158" height="48">
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+</body>
+
+</html>
